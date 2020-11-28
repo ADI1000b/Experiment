@@ -1,11 +1,11 @@
 body{
     background-color: blanchedalmond;
+    background-image: url(pic.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 h1{
     color: brown;
-}
-p{
-
 }
 .textcolor{
     color: cadetblue;
