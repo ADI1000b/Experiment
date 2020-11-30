@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Document</title>
+    <style>
+       div{
+           width: 100px;
+           height: 100px;
+           position: relative;
+            background-color: steelblue;
+            animation-name: position;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+           /* animation-delay: 2s;*/
+            /*animation-direction: alternate-reverse;*/
+            animation: position 4s ease 2s infinite alternate;
+       }
+       @keyframes position{
+           0%{
+               background-color: skyblue;  
+               left: 0px;
+               top: 0px;             
+           }
+           25%{
+               background-color: red;
+               left:200px;
+               top: 0px;
+           }
+           50%{
+               background-color: green;
+               left: 200px;
+               top: 200px;
+           }
+           75%{
+               background-color: grey;
+               left: 0px;
+               top: 200px;
+           }
+           100%{
+               background-color: springgreen;
+               left: 0px;
+               top: 0px;
+           }
+       }
+    </style>
+</head>
+<body>
+    <div class="d1">
+        Hi There
+    </div>
+    
+
+</body>
+</html>

@@ -1,52 +1,34 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Filling the form</title>
+        <title>My Photography Collection</title>
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <ul>
-            <li>Google</li>
-            <li>Yahoo</li>
-            <li>Gmail</li>
-        </ul>
-        <br>
-        <h1>This is my form</h1>   
-        <div class="card">
-            <div class="header">
-                <h1>28</h1>
-            </div>
-            <div class="content">
-                <p>November 28th</p>
-            </div>
-        </div>  
-        <div class="clickon">Hover over me</div>
-        <br>
-        <p class="hidden">I am here</p>   
-        <p id="id1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium dolores tenetur distinctio libero reiciendis, delectus dolore sed labore corrupti consectetur officia tempora iure expedita eius sint illum, voluptates ratione voluptatibus?</p>
-        <p class="textcolor">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit perferendis, cumque illum similique praesentium, vel accusamus eveniet nemo nulla, repellat blanditiis deserunt tenetur molestias eius! Et reprehenderit voluptate blanditiis ipsum?</p>
-        <p class="textcolor">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit perferendis, cumque illum similique praesentium, vel accusamus eveniet nemo nulla, repellat blanditiis deserunt tenetur molestias eius! Et reprehenderit voluptate blanditiis ipsum?</p>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit modi laborum voluptatem vitae, ducimus dolores! Quis blanditiis fugit culpa, minus quasi quisquam hic excepturi voluptatibus fugiat tenetur aliquam, laudantium exercitationem.</p>
-        <div class="div1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam beatae, esse iste ipsum eveniet non et. Totam, maiores eaque! Omnis quas possimus tempora dolorem, at asperiores! Necessitatibus tenetur accusantium iste?</div>
-        <div class="div2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores rem nihil cumque cupiditate. Cumque nam nihil rerum? Amet, voluptatem et atque est dicta ea dolorem nemo eos possimus quibusdam, rem, sint quasi consequuntur exercitationem quis impedit earum aut blanditiis necessitatibus reiciendis laborum. Impedit numquam voluptas neque reprehenderit, nam corporis incidunt modi velit earum quis deserunt dolorem praesentium tempora necessitatibus mollitia laudantium nulla maiores fugiat? Eligendi, voluptatum libero! Ipsa minus voluptas doloremque facere, error iure id. Iure explicabo aliquid labore quas nostrum voluptatibus, optio ut voluptatum provident sapiente facilis veritatis impedit officia ipsum asperiores blanditiis harum sed quae commodi dignissimos tenetur.</div>
-        <p class="second">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam, corrupti! Molestiae, a! Impedit ea asperiores nihil, saepe fugit aut nisi dignissimos ab nesciunt tempore et deserunt repellat molestiae voluptatum eaque consectetur laborum aliquam, doloremque, accusamus recusandae quia dolor velit soluta provident. Ipsam esse neque impedit deserunt officiis accusantium. Saepe culpa iste explicabo eveniet et vero suscipit porro alias, nulla, quia optio sapiente eaque pariatur voluptatum animi illo consequatur dolorem beatae. Minus cupiditate voluptatibus voluptates, officiis provident ex, aperiam asperiores tenetur eaque molestiae necessitatibus delectus nam impedit sunt voluptate blanditiis pariatur cumque dolore earum inventore modi ad magni? Provident, ipsam harum.</p>
-        <form name="Contact" method="POST" data-netlify="true">
-            <fieldset>
-                <legend>Contact form</legend>
-                Name:<input type="text" placeholder="Name" name="Name"><br>
-                Email:<input type="email" placeholder="Email" name="Email"><br>
-                year<br>
-                <select>
-                    <option>1</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                </select>
-
-               
-
-                <button type="submit">Send</button>
-            </fieldset>
-        </form>
+        <!--header-->
+        <div class="header">My Photography Collection</div>
+        <div class="image-container">
+            <div class="img"><img src="./assets/img1.jpg"></div>
+            <div class="img"><img src="./assets/img2.jpg"></div>
+            <div class="img"><img src="./assets/img3.jpg"></div>
+            <div class="img"><img src="./assets/img3.jpg"></div>
+            <div class="img"><img src="./assets/img3.jpg"></div>
+            <div class="img"><img src="./assets/img3.jpg"></div>
+            <div class="img"><img src="./assets/img3.jpg"></div>
+            <div class="img"><img src="./assets/img3.jpg"></div>
+        </div>
+        <div class="contact-form">
+            <form name="contact" method="POST" data-netlify="true">
+                <fieldset>
+                    <legend>Contact Form</legend>
+                    Name: <input type="text" name="Name"><br>
+                    Email: <input type="email" name="Email"><br>
+                    Comment:<br>
+                    <textarea name="" id="" cols="20" rows="10"></textarea>
+                    <button type="submit">Submit</button>
+                </fieldset>
+            </form>
+        </div>
+       
     </body>
 </html>

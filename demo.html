@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS demo</title>
+        
+        <style>
+           div{
+               width: 100px;
+               height: 100px;
+               background-color: red;
+               /*transition-property: width;
+               transition-duration: 2s;*/
+               transition: width 2s,height 4s;
+               margin-bottom: 2px;
+           }
+           div:hover{
+               width: 300px;
+           }
+           #d1{
+               animation-timing-function: ease;
+           }
+           #d2{
+               animation-timing-function: linear;
+           }
+           #d3{
+                animation-timing-function: ease-in;
+           }
+           #d4{
+               animation-timing-function: ease-out;
+           }
+           #d5{
+               animation-timing-function: ease-in-out;
+           }
+        </style>
+    </head>
+    <body>
+        <h1>Transition Effect</h1>
+        <p>Hover to see transition</p>
+        <div class="d1"></div>
+        <div class="d2"></div>
+        <div class="d3"></div>
+        <div class="d4"></div>
+        <div class="d5"></div>
+    </body>
+</html>
