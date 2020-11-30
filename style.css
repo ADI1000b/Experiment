@@ -18,7 +18,7 @@ body{
     position: sticky;
     top: 0;
     left: 0;
-    z-index: 100px;
+    z-index: 1;
 }
 img{
     height: 300px;
@@ -39,7 +39,7 @@ img:hover{
     justify-content: space-around;    
 }
 .img{
-    flex:auto;
+    flex: 25%;
     text-align: center;
     margin-top: 50px;
 }
