@@ -39,7 +39,7 @@ img:hover{
     justify-content: space-around;    
 }
 .img{
-    flex:25%;
+    flex:auto;
     text-align: center;
     margin-top: 50px;
 }
