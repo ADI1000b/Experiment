@@ -3,6 +3,7 @@
     <head>
         <title>My Photography Collection</title>
         <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
     </head>
     <body>
         <!--header-->
@@ -24,8 +25,29 @@
                     Name: <input type="text" name="Name"><br>
                     Email: <input type="email" name="Email"><br>
                     Comment:<br>
-                    <textarea name="Comment" id="" cols="20" rows="10"></textarea>
+                    <textarea name="Comment" id="" cols="20" rows="10"></textarea><br>
                     <button type="submit">Submit</button>
+                </fieldset>
+            </form>
+        </div>
+        <div class="Sign-Up">
+            <form name="Sign-Up" method="POST" data-netlify="true" onsubmit="return validateForm()">
+                <fieldset>
+                    <legend style="text-align: left;">SIGN UP</legend>
+                    Name: <input type="text" name="Name" class="input1" id="fname">
+                    <span id = "blankMsg" style="color:red"> </span> <br>
+                    Email: <input type="email" name="Email" class="input1" id="lname"><br>
+                    Password: <input type="password" name="pswd1" class="input1" id="pswd1"><br>
+                    <span id = "message1" style="color:red"> </span> <br>
+                    Confirm Password: <input type="password" class="input1" name="pswd2"><br>
+                    <span id = "message2" style="color:red"> </span> <br>
+                    Mobile No: <input type="number" name="Mobile No." class="input1"><br>
+                    Remember me: <input type="checkbox"><br>
+                    By creating an account you agree to our <a href="" style="color: blue;">terms and conditions</a><br>
+                   <div style="text-align: center;"> 
+                       <button type="reset">Reset</button>
+                        <button type="submit" onclick="matchPassword()">Submit</button>
+                    </div>
                 </fieldset>
             </form>
         </div>
